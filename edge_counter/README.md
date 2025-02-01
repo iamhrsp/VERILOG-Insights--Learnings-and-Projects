@@ -6,6 +6,11 @@ This design counts the number of **rising edges** on an input signal. It does th
 2. A **counter** that increments once each time it receives that pulse.
 3. A **top‐level module** (`edge_counter`) that wires these two pieces together.
 
+### Component diagram for better understanding
+
+![component Diagram](https://github.com/iamhrsp/VERILOG-Insights--Learnings-and-Projects/blob/main/edge_counter/figures/dia3.JPG)
+
+
 ## How It Works
 
 1. **Edge Detector**
@@ -37,6 +42,3 @@ This design counts the number of **rising edges** on an input signal. It does th
 ![ed_counter](https://github.com/iamhrsp/VERILOG-Insights--Learnings-and-Projects/blob/main/edge_counter/figures/dia2.JPG)
 
 
-### Component diagram for better understanding
-
-![component Diagram](https://github.com/iamhrsp/VERILOG-Insights--Learnings-and-Projects/blob/main/edge_counter/figures/dia3.JPG)
